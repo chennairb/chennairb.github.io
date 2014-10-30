@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: Installing Ruby/Rails using Vagrant 
 permalink: /install-vm.html
 ---
-
-## Installing Ruby/Rails using Vagrant
 
 - Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) for your platform and install it. (Its 62-109 MB depending on platform)
 
