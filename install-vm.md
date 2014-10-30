@@ -22,6 +22,10 @@ permalink: /install.html
     `mkdir my_working_directory/vbox`  
     `cp my_download_folder/precise-rails-0.1.0.box my_working_directory/vbox/`    
 
+- Create another folder called **code** within your working directory. This folder will be synced between the VM and your host computer.  
+
+    `mkdir my_working_directory/code`  
+
 - Give the follwing commands from the working directory:  
  
     `vagrant        ## shows help text`  
