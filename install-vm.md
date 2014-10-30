@@ -14,19 +14,19 @@ permalink: /install.html
 
 - Download the [Vagrantfile](http://chennai-ruby.org/Vagrantfile).
 
-- Copy the Vagrantfile to your working directory (assuming it is called **workshop**)  
-    home> `cp ~/download_folder/Vagrantfile ~/workshop/`
+- Copy the Vagrantfile to your working directory  
+    `cp my_download_folder/Vagrantfile my_working_directory/`
 
 - Create a **vbox** folder within your working directory and copy the **Box image** (precise-rails-0.1.0.box) to it.
    
-    home> `mkdir ~/workshop/vbox`  
-    home> `cp ~/download_folder/precise-rails-0.1.0.box ~/workshop/vbox/`    
+    `mkdir my_working_directory/vbox`  
+    `cp my_download_folder/precise-rails-0.1.0.box my_working_directory/vbox/`    
 
-- From the working directory, 
+- Give the follwing commands from the working directory:  
  
-    workshop> `vagrant        ## shows help text`  
-    workshop> `vagrant up      ## builds the VM. Will take a few mins`  
-    workshop> `vagrant ssh      ## logs on to the VM`  
+    `vagrant        ## shows help text`  
+    `vagrant up      ## builds the VM. Will take a few mins`  
+    `vagrant ssh      ## logs on to the VM`  
 
 That's it. The last few commands create an Ubuntu virtual machine with Ruby, Rails, Postgres and many gems installed and configured.
 
