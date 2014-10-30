@@ -8,7 +8,7 @@ permalink: /install.html
 
 - Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) for your platform and install it. (Its 62-109 MB depending on platform)
 
-- Download [Vagrant](https://www.vagrantup.com/downloads.html) for your platform and install it. (Its 69-158 MB depending on platform)
+- Download [Vagrant](https://www.vagrantup.com/downloads.html) for your platform and install it. (Its 69-158 MB depending on platform). If you have an older version of vagrant (below 1.6.5), you'll need to install this one.
 
 - Download our [Box image](https://www.dropbox.com/s/n8okpqtcekpn1hs/precise-rails-0.1.0.box?dl=0). (783 MB)
 
