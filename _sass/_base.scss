@@ -149,6 +149,15 @@ pre {
 }
 
 
+fieldset {
+    border: none;
+}
+
+input {
+    height: $text-field-height;
+    padding-left: 3px;
+}
+
 
 /**
  * Wrapper
@@ -202,3 +211,4 @@ pre {
         }
     }
 }
+
