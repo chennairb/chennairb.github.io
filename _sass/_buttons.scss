@@ -1,0 +1,26 @@
+.graphite-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 18%;
+  height: 32px;
+  padding: 0;
+  padding-top: 3px;
+  font-size: 12px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #454545;
+  border: 0;
+  border-bottom: 2px solid #2f2e2e;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #2f2e2e;
+  box-shadow: inset 0 -2px #2f2e2e;
+
+  &:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+}
